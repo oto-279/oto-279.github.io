@@ -17,7 +17,7 @@
 
 <h2>1. 基本方針</h2>
 <p>本アプリは、アカウント登録を必要とせず、利用者が記録したスタンプ・写真・メモなどのデータを<strong>すべて利用者の端末内にのみ保存</strong>します。運営者はサーバーを運用しておらず、これらのデータを運営者が受け取ったり、閲覧したりすることはありません。</p>
-<p>ただし、地図の表示・周辺施設の検索・広告の表示のために、後述する外部事業者(Apple Inc.、Google LLC)へ一部の情報が送信されます。</p>
+<p>ただし、地図の表示・周辺施設の検索・地名の英語表記の取得・広告の表示のために、後述する外部事業者(Apple Inc.、Wikimedia Foundation, Inc.、Google LLC)へ一部の情報が送信されます。</p>
 
 <h2>2. 本アプリが扱う情報と利用目的</h2>
 
@@ -42,6 +42,7 @@
 <h3>(3) 利用者が入力・作成する情報</h3>
 <ul>
   <li>スタンプの場所名・住所・カテゴリ・メモ、アルバム、作成したmovieは、端末内にのみ保存します。</li>
+  <li>スタンプに英語の地名を表示するため、周辺施設の検索結果から選んだランドマークの名前(例: 東京タワー)をWikimedia Foundation, Inc.が運営するWikidataへ送信し、その英語名を取得します。座標・メモ・自由入力した名前・地名(町・字など)は送信しません。取得した英語名は端末内にのみ保存します。取得はスタンプを押した直後と本アプリの起動時に行い、通信できなかった場合は後から取得し直します。</li>
   <li>movieを他のアプリやサービスへ共有する場合は、利用者自身の操作により、利用者が選んだ共有先へ送られます。共有先での取扱いは各サービスの規約・ポリシーに従います。</li>
 </ul>
 
@@ -76,6 +77,12 @@
       <td><a href="https://www.apple.com/jp/legal/privacy/">Apple のプライバシーポリシー</a></td>
     </tr>
     <tr>
+      <td>Wikimedia Foundation, Inc.(Wikidata)</td>
+      <td>スタンプを押したランドマークの名前、IPアドレス、端末情報(本アプリの名前・バージョン)</td>
+      <td>スタンプに表示する英語の地名の取得</td>
+      <td><a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/ja">Wikimedia プライバシーポリシー</a></td>
+    </tr>
+    <tr>
       <td>Google LLC(Google AdMob)</td>
       <td>広告識別子(許可時のみ)、IPアドレス、端末情報、広告の表示・操作の情報</td>
       <td>広告の配信・効果測定・不正防止(許可時は利用者に合わせた広告の表示)</td>
@@ -108,7 +115,7 @@
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSd5zT-lUuG72cmpPQCbyd2fB40MSmdClMhtbiA_fm33qwegdg/viewform">お問い合わせフォーム</a></p>
 <p>運営者:Otoha Yokoyama</p>
 
-<p class="dates">制定日:2026年9月27日<br>改定日:2026年10月4日</p>
+<p class="dates">制定日:2026年9月27日<br>改定日:2026年10月5日</p>
 
 <nav class="links">
   <a href="index.html">TripStamp サポート</a>
