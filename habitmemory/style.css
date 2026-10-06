@@ -1,0 +1,11 @@
+:root { --bg: #fffaf3; --text: #3d3530; --sub: #7a6f66; --line: #eadfd2; --accent: #e8836b; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1f1b18; --text: #f1e9e1; --sub: #b3a79c; --line: #3a332d; --accent: #f09a83; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, "Hiragino Maru Gothic ProN", "Hiragino Sans", sans-serif; line-height: 1.8; }
+main { max-width: 680px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h2 { font-size: 1.1rem; margin: 2em 0 .4em; padding-bottom: .2em; border-bottom: 1px solid var(--line); }
+p, li { margin: .4em 0; }
+.sub { color: var(--sub); font-size: .9rem; }
+a { color: var(--accent); }
+nav { margin-top: 3em; font-size: .9rem; }
