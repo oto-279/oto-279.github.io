@@ -9,3 +9,4 @@ p, li { margin: .4em 0; }
 .sub { color: var(--sub); font-size: .9rem; }
 a { color: var(--accent); }
 nav { margin-top: 3em; font-size: .9rem; }
+h3 { font-size: 1rem; margin: 1.4em 0 .2em; }
